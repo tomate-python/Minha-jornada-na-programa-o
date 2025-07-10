@@ -1,0 +1,46 @@
+##📋Minhas anotações!
+(São as anotações que faço durante o curso)
+
+AULA 1 programando em python
+Sobre Python:
+È uma linguagem de propósito geral ou seja não é focado em nenhuma área. Python é uma linguagem fácil para iniciantes
+
+  1- Funcões/Comandos
+    Para exibir use: Print() se for mensagem usar (") se não for mensagem não usar (") EX: print(1+1)
+    Nova forma de print: Print('Algo {}' .format (algo))
+    Para receber algo usar (input) ele permite o usuario responder
+
+  
+2- Se os dados forem mensagens eles tem delimitadores especiais
+   por ex: (") ou(') para descrever que é mensagem, usar () para marcar por ex: print('olá mundo')
+
+  
+3- Variaveis sao objetos e para usar ou criar basta apenas fazer assim:
+   nome = ('digite seu nome')
+   peso = float('seu peso')
+
+
+  
+AULA - 2 Tipos primitivos de saida e dados
+   1- Int = número inteiro: seja positivo ou negativo so não pode ser quebrado
+   2- Float  = número quebrado: Apenas numeros quebrados
+   3- Bool = valores lógicos: Apenas 2 valores (True) ou (False)
+   4- Str = valores caracteres ou strings: Valores com strings (")
+
+  
+AULA - 7 Operadores aritiméticos
+   1- (+, Adição)
+   2- (-, Subtração)
+   3- (*, Multiplicação)
+   4- (/, Divisão)
+   5- (**, Potênciação)
+   6- (//, Divisão inteira)
+   7- (%, Resto da divisão)
+   
+   Ordem precedencia
+   
+   1- São os () Parentesses
+   2- É a potencia (**)
+   3- São multiplicação(*), Divisão(/), Divisão inteira(//) e Resto da divisão(%)
+   4- Soma(+) e divisão(-)
+
