@@ -50,6 +50,8 @@ print('Está capitalizada:', algo.istitle())
 python
 p1 = int(input('Digite um número: '))
 print('Seu antecessor é', p1 - 1, 'e seu sucessor é', p1 + 1)
+
+🔽=================================================================🔽
 👨‍💻 Desafio 006 – Dobro, Triplo e Raiz Quadrada
 📋 Explicação: Recebe um número e calcula seu dobro, triplo e raiz quadrada.
 
@@ -63,6 +65,8 @@ input('Pressione "Enter" para continuar...')
 print('O dobro é:', n * 2) 
 print('O triplo é:', n * 3)
 print('A raiz quadrada é:', math.sqrt(n))
+
+🔽=================================================================🔽
 👨‍💻 Desafio 007 – Média de Notas
 📋 Explicação: Calcula a média aritmética entre duas notas fornecidas pelo usuário.
 
@@ -74,6 +78,8 @@ nt1 = float(input('Digite sua nota: '))
 nt2 = float(input('Digite a outra nota: '))
 media = (nt1 + nt2) / 2
 print('Sua média final é {:.1f}'.format(media))
+
+🔽=================================================================🔽
 👨‍💻 Desafio 008 – Conversão de Medidas
 📋 Explicação: Converte uma medida em metros para centímetros e milímetros.
 
