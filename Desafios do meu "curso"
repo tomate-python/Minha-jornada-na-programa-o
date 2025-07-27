@@ -1,1 +1,100 @@
+👨‍💻Desafio (003)
+
+📋Explicação:
+- Uma simples calculadora, que faz somente adição.
+
+📂CÓDIGO:
+n1 = int(input('Digite um valor'))
+n2 = int(input('Digite mais um e descubra a soma deles'))
+result =(n1 + n2)
+print('Resultado:{}'.format(result
+
+🔽=================================================================🔽
+
+👨‍💻Desafio (004)
+
+📋Explicação:
+- Um código onde mostra as informações sobre o que foi digitado.
+
+📂CÓDIGO:
+import time
+
+algo = input('Digite algo:')
+print('Aqui estão as informações sobre:')
+time.sleep(1)
+print('Tipo primitivo:', type(algo))
+time.sleep(0.5)
+print('È alphanumérico:',algo.isalnum())
+time.sleep(0.5)
+print('É alphabético:' , algo.isalpha())
+time.sleep(0.5)
+print('Tem somente "space":', algo.isspace())
+time.sleep(0.5)
+print('É número:', algo.isnumeric())
+time.sleep(0.5)
+print('Esta em maiusculo:', algo.isupper())
+time.sleep(0.5)
+print('Esta em minusculo:', algo.islower())
+time.sleep(0.5)
+print('Esta capitalizada:', algo.istitle())
+
+🔽=================================================================🔽
+
+👨‍💻 Desafio (005)
+
+📋Explicação:
+-Um código onde mostra o antescessor e sucessor de um número digitado pelo usuário.
+
+📂CÓDIGO
+p1 = int(input('Digite um número:'))
+print('Seu antecessor é', p1-1, 'E seu sucessor é', p1+1)
+
+🔽=================================================================🔽
+
+👨‍💻 Desafio (006)
+
+📋Explicação:
+-Um algoritimo que lê um número e retorna o dobro, triplo e raiz quadrada do mesmo.
+
+📂CÓDIGO:
+import math
+
+n = int(input('Digite um número'))
+press = input('Pressione "Enter" para continuar')
+print('O dobro é', n*2) 
+print('O trplo é:', n*3)
+print('A raiz quadrada é:', math.sqrt(n))
+
+🔽=================================================================🔽
+
+👨‍💻Desafio (007)
+
+📋Explicação:
+-Um programa que lê 2 notas de um aluno e calcula sua média.
+
+📂CÓDIGO:
+print('Bem-vindo ao calculador de média')
+nt1 = float(input('Digite sua nota:'))
+nt2 = float(input('Digite a outra nota'))
+
+#Calculo da nota
+media = (nt1+nt2)/2
+print('Sua média final é {:.1f}'.
+
+🔽=================================================================🔽
+
+👨‍💻Desafio (008)
+
+📋Explicação:
+-Um programa que calcula a partir de uma medida em metros as seguintes medidas: centímetros e milimetros
+
+📂CÓDIGO:
+vlr = float(input('Digite uma medida em metros:'))
+cm = vlr * 100
+mm = vlr * 1000
+print('O valor {}m corresponde há {:.0f} centimetros e {:.0f} milimetros'.format(vlr, cm, mm))
+
+
+
+
 
