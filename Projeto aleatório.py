@@ -1,3 +1,16 @@
+#Autor: Thomas Martins Farinelli
+#Data: 31 de Julho 2025
+
+#Atenção:
+#Este é um projeto sem fins lucrativos e sem propósito comercial. É um projeto demontrativo das minhas habilidades de programação.
+
+#Descrição:
+#É um programar simples de calcular médias escolares e calcular faltas, são 2 campos para digitar suas notas (2 notas) e um botão fazer o calculo.
+#Um botão extra que redireciona a calculadora de faltas que segue o mesmo sentido da primeira calculadora.
+
+
+                                       #Código
+
 #Imprortando bibliotecas necessárias
 import tkinter as tk
 from tkinter import messagebox
