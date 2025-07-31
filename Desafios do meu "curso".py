@@ -1,25 +1,25 @@
-👨‍💻 Desafio 003 – Somando Dois Valores
+#👨‍💻 Desafio 003 – Somando Dois Valores
 
-📋 Explicação: Aplicação que realiza a soma entre dois números digitados pelo usuário.
+#📋 Explicação: Aplicação que realiza a soma entre dois números digitados pelo usuário.
 
-🧠 Lógica geral: Recebe dois valores → Converte para tipo numérico → Soma → Exibe o resultado.
+#🧠 Lógica geral: Recebe dois valores → Converte para tipo numérico → Soma → Exibe o resultado.
 
-📂 Código:
+#📂 Código:
 
-python
+#python
 n1 = float(input('Digite um valor: '))
 n2 = float(input('Digite mais um e descubra a soma deles: '))
 result = n1 + n2
 print('Resultado: {}'.format(result))
 
-🔽=================================================================🔽
-👨‍💻 Desafio 004 – Analisador de String
+#🔽=================================================================🔽
+#👨‍💻 Desafio 004 – Analisador de String
 
-📋 Explicação: Verifica diversas propriedades de uma string digitada pelo usuário.
+#📋 Explicação: Verifica diversas propriedades de uma string digitada pelo usuário.
 
-📂 Código:
+#📂 Código:
 
-python
+#python
 import time
 
 algo = input('Digite algo: ')
@@ -41,25 +41,25 @@ print('Está em minúsculas:', algo.islower())
 time.sleep(0.5)
 print('Está capitalizada:', algo.istitle())
 
-🔽=================================================================🔽
-👨‍💻 Desafio 005 – Antecessor e Sucessor
+#🔽=================================================================🔽
+#👨‍💻 Desafio 005 – Antecessor e Sucessor
 
-📋 Explicação: Recebe um número e exibe seu antecessor e sucessor.
+#📋 Explicação: Recebe um número e exibe seu antecessor e sucessor.
 
-📂 Código:
+#📂 Código:
 
-python
+#python
 p1 = int(input('Digite um número: '))
 print('Seu antecessor é', p1 - 1, 'e seu sucessor é', p1 + 1)
 
-🔽=================================================================🔽
-👨‍💻 Desafio 006 – Dobro, Triplo e Raiz Quadrada
+#🔽=================================================================🔽
+#👨‍💻 Desafio 006 – Dobro, Triplo e Raiz Quadrada
 
-📋 Explicação: Recebe um número e calcula seu dobro, triplo e raiz quadrada.
+#📋 Explicação: Recebe um número e calcula seu dobro, triplo e raiz quadrada.
 
-📂 Código:
+#📂 Código:
 
-python
+#python
 import math
 
 n = int(input('Digite um número: '))
@@ -68,14 +68,14 @@ print('O dobro é:', n * 2)
 print('O triplo é:', n * 3)
 print('A raiz quadrada é:', math.sqrt(n))
 
-🔽=================================================================🔽
-👨‍💻 Desafio 007 – Média de Notas
+#🔽=================================================================🔽
+#👨‍💻 Desafio 007 – Média de Notas
 
-📋 Explicação: Calcula a média aritmética entre duas notas fornecidas pelo usuário.
+#📋 Explicação: Calcula a média aritmética entre duas notas fornecidas pelo usuário.
 
-📂 Código:
+#📂 Código:
 
-python
+#python
 print('Bem-vindo ao calculador de média')
 nt1 = float(input('Digite sua nota: '))
 nt2 = float(input('Digite a outra nota: '))
