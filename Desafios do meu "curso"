@@ -1,4 +1,5 @@
 👨‍💻 Desafio 003 – Somando Dois Valores
+
 📋 Explicação: Aplicação que realiza a soma entre dois números digitados pelo usuário.
 
 🧠 Lógica geral: Recebe dois valores → Converte para tipo numérico → Soma → Exibe o resultado.
@@ -53,6 +54,7 @@ print('Seu antecessor é', p1 - 1, 'e seu sucessor é', p1 + 1)
 
 🔽=================================================================🔽
 👨‍💻 Desafio 006 – Dobro, Triplo e Raiz Quadrada
+
 📋 Explicação: Recebe um número e calcula seu dobro, triplo e raiz quadrada.
 
 📂 Código:
@@ -68,6 +70,7 @@ print('A raiz quadrada é:', math.sqrt(n))
 
 🔽=================================================================🔽
 👨‍💻 Desafio 007 – Média de Notas
+
 📋 Explicação: Calcula a média aritmética entre duas notas fornecidas pelo usuário.
 
 📂 Código:
@@ -81,6 +84,7 @@ print('Sua média final é {:.1f}'.format(media))
 
 🔽=================================================================🔽
 👨‍💻 Desafio 008 – Conversão de Medidas
+
 📋 Explicação: Converte uma medida em metros para centímetros e milímetros.
 
 📂 Código:
